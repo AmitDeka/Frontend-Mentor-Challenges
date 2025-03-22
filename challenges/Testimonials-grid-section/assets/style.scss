@@ -1,0 +1,207 @@
+@import "variable";
+
+*,
+html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: $font;
+  font-weight: 400;
+  color: $VeryDarkBlackishBlue;
+  background-color: $LightGrayishBlue;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  @media screen and (min-width: $Desktop) {
+    height: 100vh;
+  }
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.container {
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 4rem 0;
+  @media screen and (min-width: $Desktop) {
+    padding: 0;
+    max-width: 80%;
+  }
+}
+section {
+  @media screen and (min-width: $Desktop) {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.Layout {
+  display: grid;
+  gap: 2rem;
+  @media screen and (min-width: $Desktop) {
+    gap: 1.5rem;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, auto);
+  }
+  &1 {
+    border-radius: 1rem;
+    color: $White;
+    background-color: $ModerateViolet;
+    @media screen and (min-width: $Desktop) {
+      order: 1;
+      grid-column: 1 / span 2;
+      height: 100%;
+      display: flex;
+      align-items: center;
+    }
+  }
+  &2 {
+    border-radius: 1rem;
+    color: $White;
+    background-color: $VeryDarkGrayishBlue;
+    @media screen and (min-width: $Desktop) {
+      order: 2;
+      height: 100%;
+      display: flex;
+      align-items: center;
+    }
+  }
+  &3 {
+    border-radius: 1rem;
+    background-color: $White;
+    @media screen and (min-width: $Desktop) {
+      order: 4;
+      height: 100%;
+      display: flex;
+      align-items: center;
+    }
+  }
+  &4 {
+    border-radius: 1rem;
+    color: $White;
+    background-color: $VeryDarkBlackishBlue;
+    @media screen and (min-width: $Desktop) {
+      order: 5;
+      grid-column: 2 / span 2;
+      height: 100%;
+      display: flex;
+      align-items: center;
+    }
+  }
+  &5 {
+    border-radius: 1rem;
+    background-color: $White;
+    @media screen and (min-width: $Desktop) {
+      order: 3;
+      grid-row: span 2;
+      height: 100%;
+      display: flex;
+      align-items: center;
+    }
+  }
+  &_Card {
+    position: relative;
+    z-index: 0;
+    padding: 1.5rem 2rem;
+    &_BG {
+      position: absolute;
+      top: 0;
+      right: 62px;
+      z-index: -1;
+      @media screen and (min-width: $Desktop) {
+        right: 90px;
+      }
+    }
+    &_top {
+      margin-bottom: 0.7rem;
+      display: flex;
+      &_img {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 50px;
+        width: 50px;
+        object-fit: contain;
+        object-position: center;
+        margin: 0 0.8rem 0 0;
+        img {
+          margin: auto;
+          border-radius: 50%;
+          overflow: hidden;
+        }
+      }
+      &_text {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+      }
+      &_title {
+        h1 {
+          font-size: 17px;
+          letter-spacing: 0.5px;
+          font-weight: 600;
+        }
+      }
+      &_subtitle {
+        p {
+          font-size: 15px;
+          letter-spacing: 0.3px;
+          font-weight: 600;
+          opacity: 0.5;
+        }
+      }
+    }
+    &_bottom {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      &_title {
+        h2 {
+          font-weight: 600;
+          font-size: 20.9px;
+          line-height: 125%;
+          @media screen and (min-width: $Desktop) {
+            font-size: 21px;
+          }
+        }
+        margin-bottom: 1rem;
+      }
+      &_subtitle {
+        p {
+          font-size: 14.5px;
+          font-weight: 500;
+          line-height: 150%;
+          opacity: 0.7;
+          @media screen and (min-width: $Desktop) {
+            font-size: 13.5px;
+          }
+        }
+      }
+    }
+    @media screen and (min-width: $Desktop) {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 1.5rem 2rem;
+    }
+  }
+}
+.attribution {
+  position: absolute;
+  font-size: 12px;
+  bottom: 1rem;
+  left: 0;
+  right: 0;
+  // margin-bottom: 3rem;
+  text-align: center;
+  a {
+    font-weight: 500;
+    color: $ModerateViolet;
+  }
+}

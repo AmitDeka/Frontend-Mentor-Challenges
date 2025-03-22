@@ -1,0 +1,77 @@
+@import "variable";
+
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-smooth: always;
+  -webkit-font-smoothing: antialiased;
+}
+body {
+  font-family: $fontFamily;
+  font-size: $fontSize;
+  background-color: $Light_gray;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  max-width: 85%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: $White;
+  padding: 1rem 1rem 2rem;
+  border-radius: 1.5rem;
+
+  &_Image {
+    height: auto;
+    max-width: 100%;
+    border-radius: 1.5rem;
+  }
+  &_Text {
+    padding: 2rem 1rem 0.5rem;
+    text-align: center;
+    h1 {
+      font-size: 1.35rem;
+      color: $Dark_blue;
+      margin-bottom: 1rem;
+    }
+    p {
+      color: $Grayish_blue;
+    }
+  }
+}
+.card {
+  @media screen and (min-width: $Mobile) {
+    max-width: 310px;
+  }
+}
+.card {
+  @media screen and (min-width: $Desktop) {
+    max-width: 320px;
+  }
+}
+.attribution {
+  position: absolute;
+  bottom: 1rem;
+  left: 0;
+  right: 0;
+  font-size: 11px;
+  text-align: center;
+  a {
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    color: hsl(228, 45%, 44%);
+  }
+}
