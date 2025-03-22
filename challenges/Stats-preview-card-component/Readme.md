@@ -12,7 +12,6 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -65,6 +64,6 @@ const proudOfThisFunc = () => {
 
 ## Author
 
-- Website - [Amit Deka](https://www.amitdeka.github.io)
-- Frontend Mentor - [@Amit Deka](https://www.frontendmentor.io/profile/AmitDeka)
+- Website - [Amit Deka](https://www.amitdeka.work)
+- Frontend Mentor - [@AmitDeka](https://www.frontendmentor.io/profile/AmitDeka)
 - Twitter - [@AmitDeka10](https://www.twitter.com/AmitDeka10)

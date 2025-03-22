@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Click Here](https://github.com/AmitDeka/Four-card-feature-section-Frontend-Mentor)
-- Live Site URL: [Click Here](https://amitdeka.github.io/Four-card-feature-section-Frontend-Mentor)
+- Solution URL: [Click Here](https://github.com/AmitDeka/Frontend-Mentor-Challenges/tree/main/challenges/Four-card-feature-section)
+- Live Site URL: [Click Here](https://frontend-mentor-challenges-sable-eight.vercel.app/challenges/Four-card-feature-section)
 
 ## My process
 
@@ -68,6 +68,6 @@ If you want more help with writing markdown, we'd recommend checking out [The Ma
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
+- Website - [Amit Deka](https://www.amitdeka.work)
 - Frontend Mentor - [@AmitDeka](https://www.frontendmentor.io/profile/AmitDeka)
 - Twitter - [@AmitDeka10](https://www.twitter.com/AmitDeka10)

@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github](https://github.com/AmitDeka/testimonials-grid-section)
-- Live Site URL: [Github Pages](https://amitdeka.github.io/testimonials-grid-section/)
+- Solution URL: [Github](https://github.com/AmitDeka/Frontend-Mentor-Challenges/tree/main/challenges/Testimonials-grid-section)
+- Live Site URL: [Github Pages](https://frontend-mentor-challenges-sable-eight.vercel.app/challenges/Testimonials-grid-section)
 
 ### Built with
 
@@ -63,6 +63,6 @@ const proudOfThisFunc = () => {
 
 ## Author
 
-- Website - [Amit Deka](https://amitdeka.github.io/)
+- Website - [Amit Deka](https://www.amitdeka.work)
 - Frontend Mentor - [@AmitDeka](https://www.frontendmentor.io/profile/AmitDeka)
-- Twitter - [@AmitDeka10](https://twitter.com/AmitDeka10)
+- Twitter - [@AmitDeka10](https://www.twitter.com/AmitDeka10)

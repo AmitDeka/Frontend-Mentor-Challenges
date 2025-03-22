@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Click Here](https://github.com/AmitDeka/Blog-preview-card-Frontend-Mentor)
-- Live Site URL: [Click Here](https://amitdeka.github.io/Blog-preview-card-Frontend-Mentor/)
+- Solution URL: [Click Here](https://github.com/AmitDeka/Frontend-Mentor-Challenges/tree/main/challenges/Blog-preview-card)
+- Live Site URL: [Click Here](https://frontend-mentor-challenges-sable-eight.vercel.app/challenges/Blog-preview-card)
 
 ## My process
 
@@ -42,10 +42,6 @@ Users should be able to:
 
 ## Author
 
-- Website - [Amit Deka](https://www.amitdeka.github.io)
-- Frontend Mentor - [@Amit Deka](https://www.frontendmentor.io/profile/AmitDeka)
+- Website - [Amit Deka](https://www.amitdeka.work)
+- Frontend Mentor - [@AmitDeka](https://www.frontendmentor.io/profile/AmitDeka)
 - Twitter - [@AmitDeka10](https://www.twitter.com/AmitDeka10)
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.

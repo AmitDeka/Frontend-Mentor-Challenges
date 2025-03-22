@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Click Here](https://github.com/AmitDeka/Interactive-rating-component-Frontend-Mentor)
-- Live Site URL: [Click Here](https://amitdeka.github.io/Interactive-rating-component-Frontend-Mentor/)
+- Solution URL: [Click Here](https://github.com/AmitDeka/Frontend-Mentor-Challenges/tree/main/challenges/Interactive-rating-component)
+- Live Site URL: [Click Here](https://frontend-mentor-challenges-sable-eight.vercel.app/challenges/Interactive-rating-component)
 
 ## My process
 
@@ -67,6 +67,6 @@ const proudOfThisFunc = () => {
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
+- Website - [Amit Deka](https://www.amitdeka.work)
 - Frontend Mentor - [@AmitDeka](https://www.frontendmentor.io/profile/AmitDeka)
 - Twitter - [@AmitDeka10](https://www.twitter.com/AmitDeka10)

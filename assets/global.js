@@ -81,27 +81,25 @@ const challenges = [
   },
 ];
 
-// document.addEventListener("DOMContentLoaded", function () {
-//   // document.body.classList.add("loading"); // Add class to hide scrollbar
-
-//   setTimeout(() => {
-//     document.getElementById("loader").style.display = "none";
-//     // document.body.classList.remove("loading"); // Restore scrolling
-//   }, 1000); // Adjust delay as needed
-// });
+document.addEventListener("DOMContentLoaded", function () {
+  setTimeout(() => {
+    document.getElementById("loader").classList.add("d-none");
+  }, 1000);
+});
 
 document.getElementById("year").textContent = new Date().getFullYear();
 
 const container = document.getElementById("challengesContainer");
 container.innerHTML = challenges
+  .reverse()
   .map(
     (challenge) => `
       <div class="col-12 col-md-6 col-lg-4 mb-4">
         <div class="card border-0 bg-white h-100 shadow-sm">
           <div class="card-body">
             <img src="${challenge.imgSrc}" alt="${challenge.title}" class="card-img-top rounded-2" loading="lazy"/>
-            <h4 class="card-title mt-3">${challenge.title}</h4>
-            <p class="card-description">${challenge.description}</p>
+            <h4 class="card-title mt-3 text-truncate">${challenge.title}</h4>
+            <p class="card-description" style="min-height:96px">${challenge.description}</p>
             <div class="w-100 d-flex justify-content-between mt-3">
               <a href="${challenge.codeLink}" class="btn btn-outline-dark me-2 fw-semibold" target="_blank">
                 <i class="bi bi-github me-2"></i>Code

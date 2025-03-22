@@ -20,8 +20,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [Github](https://github.com/AmitDeka/Frontend-Mentor---QR-code-component)
-- Live Site URL: [Github Pages](https://amitdeka.github.io/Frontend-Mentor-QR-code-component/)
+- Solution URL: [Click Here](https://github.com/AmitDeka/Frontend-Mentor-Challenges/tree/main/challenges/QR-code-component)
+- Live Site URL: [Click Here](https://frontend-mentor-challenges-sable-eight.vercel.app/challenges/QR-code-component)
 
 ## My process
 
@@ -57,6 +57,6 @@ const proudOfThisFunc = () => {
 
 ## Author
 
-- Website - [Amit Deka](https://amitdeka.github.io/)
+- Website - [Amit Deka](https://www.amitdeka.work)
 - Frontend Mentor - [@AmitDeka](https://www.frontendmentor.io/profile/AmitDeka)
 - Twitter - [@AmitDeka10](https://www.twitter.com/AmitDeka10)
