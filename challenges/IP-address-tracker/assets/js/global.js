@@ -83,7 +83,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     const customIcon = L.icon({
       iconUrl:
-        "https://amitdeka.github.io/IP-address-tracker-Frontend-Mentor/images/icon-location.svg",
+        "https://raw.githubusercontent.com/AmitDeka/Frontend-Mentor-Challenges/refs/heads/main/challenges/IP-address-tracker/images/icon-location.svg",
       iconSize: [45, 55],
     });
 
