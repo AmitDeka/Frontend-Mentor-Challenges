@@ -69,16 +69,16 @@ const challenges = [
     liveLink:
       "https://frontend-mentor-challenges-sable-eight.vercel.app/challenges/IP-address-tracker",
   },
-  // {
-  //   title: "IP Address Tracker",
-  //   description:
-  //     "In this challenge, you'll be using two separate APIs together to create an IP Address Tracking app.",
-  //   imgSrc: "./assets/challenges/IP-address-tracker.jpg",
-  //   codeLink:
-  //     "https://github.com/AmitDeka/Frontend-Mentor-Challenges/tree/main/challenges/IP-address-tracker",
-  //   liveLink:
-  //     "https://frontend-mentor-challenges-sable-eight.vercel.app/challenges/IP-address-tracker",
-  // },
+  {
+    title: "Four card feature section",
+    description:
+      "A nice layout-based challenge for beginners. This will test anyone who is new to multi-column and responsive layouts.",
+    imgSrc: "./assets/challenges/Four-card-feature-section.jpg",
+    codeLink:
+      "https://github.com/AmitDeka/Frontend-Mentor-Challenges/tree/main/challenges/Four-card-feature-section",
+    liveLink:
+      "https://frontend-mentor-challenges-sable-eight.vercel.app/challenges/Four-card-feature-section",
+  },
 ];
 
 // document.addEventListener("DOMContentLoaded", function () {

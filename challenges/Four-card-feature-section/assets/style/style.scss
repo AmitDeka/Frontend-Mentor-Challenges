@@ -1,0 +1,153 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:200,regular,600);
+@import "./breakpoints";
+
+$Red: hsl(0, 78%, 62%);
+$Cyan: hsl(180, 62%, 55%);
+$Orange: hsl(34, 97%, 64%);
+$Blue: hsl(212, 86%, 64%);
+$Very_Dark_Blue: hsl(234, 12%, 34%);
+$Grayish_Blue: hsl(229, 6%, 66%);
+$Very_Light_Gray: hsl(0, 0%, 98%);
+$ff: "Poppins", sans-serif;
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background-color: $Very_Light_Gray;
+  color: $Very_Dark_Blue;
+  font-family: $ff;
+  font-size: 0.9375rem;
+  font-weight: regular;
+  line-height: 1.4;
+}
+
+main {
+  min-height: 100vh;
+  width: 100%;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 310px;
+  width: 100%;
+  @include breakpoint(xl) {
+    max-width: 1110px;
+  }
+}
+
+.feature {
+  margin-bottom: 85px;
+  margin-top: 85px;
+  &_title {
+    font-size: 1.5rem;
+    font-weight: 200;
+    text-align: center;
+    @include breakpoint(xl) {
+      font-size: 2.25rem;
+    }
+  }
+  &_subtitle {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+    margin-top: 2px;
+    text-align: center;
+    @include breakpoint(xl) {
+      font-size: 2.25rem;
+      margin-top: unset;
+    }
+  }
+  &_text {
+    line-height: 1.55;
+    margin: 0 auto;
+    text-align: center;
+    @include breakpoint(xl) {
+      max-width: 500px;
+    }
+  }
+  &-container {
+    align-items: center;
+    display: grid;
+    gap: 25px;
+    grid-template-columns: repeat(1, 1fr);
+    margin-top: 78px;
+    @include breakpoint(xl) {
+      gap: 30px;
+      grid-template-columns: repeat(3, 1fr);
+      margin-top: 65px;
+    }
+  }
+  &_middle {
+    display: grid;
+    row-gap: 25px;
+    @include breakpoint(xl) {
+      row-gap: 35px;
+    }
+  }
+  &_card {
+    border-radius: 6px;
+    box-shadow: 0px 10px 25px 0px rgba($Grayish_Blue, 0.75);
+    padding: 24px 28px;
+    h3 {
+      font-size: 1.25rem;
+      font-weight: 600;
+      margin-bottom: 6px;
+      @include breakpoint(xl) {
+        margin-bottom: 12px;
+      }
+    }
+    p {
+      color: $Grayish_Blue;
+      font-size: 0.8rem;
+      font-weight: regular;
+      line-height: 1.6;
+      margin-bottom: 35px;
+      @include breakpoint(xl) {
+        line-height: 1.5;
+        margin-bottom: 40px;
+      }
+    }
+    &_image {
+      display: flex;
+      justify-content: end;
+      img {
+        height: 58px;
+        width: 58px;
+        @include breakpoint(xl) {
+          height: unset;
+          width: unset;
+        }
+      }
+    }
+    @include breakpoint(xl) {
+      padding: 30px;
+    }
+  }
+  &_card.b-cyan {
+    border-top: 4px solid $Cyan;
+  }
+  &_card.b-red {
+    border-top: 4px solid $Red;
+  }
+  &_card.b-orange {
+    border-top: 4px solid $Orange;
+  }
+  &_card.b-blue {
+    border-top: 4px solid $Blue;
+  }
+  @include breakpoint(xl) {
+    margin-bottom: 80px;
+    margin-top: 80px;
+  }
+}
