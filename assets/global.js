@@ -29,6 +29,16 @@ const challenges = [
     liveLink:
       "https://frontend-mentor-challenges-sable-eight.vercel.app/challenges/Testimonials-grid-section",
   },
+  {
+    title: "Social links profile",
+    description:
+      "In this small project, you'll build out your social link-sharing profile. You can even personalize it and use it to share all your social profiles!",
+    imgSrc: "./assets/challenges/Social-links-profile.jpg",
+    codeLink:
+      "https://github.com/AmitDeka/Frontend-Mentor-Challenges/tree/main/challenges/Social-links-profile",
+    liveLink:
+      "https://frontend-mentor-challenges-sable-eight.vercel.app/challenges/Social-links-profile",
+  },
 ];
 
 // document.addEventListener("DOMContentLoaded", function () {

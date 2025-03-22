@@ -1,0 +1,133 @@
+@font-face {
+  font-display: swap;
+  font-family: "Inter", sans-serif;
+  font-weight: 1 1000;
+  src: url("../fonts/Inter-VariableFont_slnt,wght.ttf") format("ttf");
+}
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: hsl(0, 0%, 8%);
+  color: hsl(0, 0%, 100%);
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+}
+
+main {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.container {
+  background-color: hsl(0, 0%, 12%);
+  border-radius: 10px;
+  margin: 100px auto;
+  padding: 28px 20px 24px;
+  width: 90%;
+}
+@media screen and (min-width: 376px) {
+  .container {
+    padding: 45px;
+    width: 450px;
+  }
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.card_image {
+  display: flex;
+  justify-content: center;
+}
+.card_image img {
+  border-radius: 50%;
+  height: 90px;
+  width: 90px;
+}
+@media screen and (min-width: 376px) {
+  .card_image img {
+    height: 100px;
+    width: 100px;
+  }
+}
+.card_body {
+  margin: 28px 0;
+  text-align: center;
+}
+.card_body h1 {
+  font-size: 1.75rem;
+  margin-bottom: 8px;
+}
+@media screen and (min-width: 376px) {
+  .card_body h1 {
+    font-size: 2rem;
+  }
+}
+.card_body h2 {
+  color: hsl(75, 94%, 57%);
+  font-size: 1rem;
+  margin-bottom: 36px;
+}
+@media screen and (min-width: 376px) {
+  .card_body h2 {
+    font-size: 1.125rem;
+  }
+}
+@media screen and (min-width: 376px) {
+  .card_body {
+    margin: 36px 0;
+  }
+}
+.card_linksList ul {
+  list-style: none;
+}
+.card_linksList ul li {
+  background-color: hsl(0, 0%, 20%);
+  border-radius: 10px;
+  margin-bottom: 16px;
+  padding: 16px 0;
+  text-align: center;
+  transition: all 0.2s ease-in-out;
+}
+.card_linksList ul li:last-of-type {
+  margin-bottom: 0px;
+}
+.card_linksList ul li:hover {
+  background-color: hsl(75, 94%, 57%);
+}
+.card_linksList ul li:hover a {
+  color: hsl(0, 0%, 8%);
+}
+.card_linksList ul li a {
+  color: hsl(0, 0%, 100%);
+  font-size: 1.05rem;
+  height: 100%;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+  width: 100%;
+}
+@media screen and (min-width: 376px) {
+  .card_linksList ul li a {
+    font-size: 1.1rem;
+  }
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(75, 94%, 57%);
+}
+/*# sourceMappingURL=d:/WebProjects/MyProjects/Frontend-Mentor-Challanges-Solutions/social-links-profile-solution/assets/style/global.css.map */
