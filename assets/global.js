@@ -3,9 +3,21 @@ const challenges = [
     title: "Stats preview card component",
     description:
       "This is a great small challenge to help get you used to building to a design. There's no JS in this project, so you'll be able to focus on your HTML & CSS skills.",
-    imgSrc: "./assets/challanges/Stats-preview-card-component.jpg",
-    codeLink: "",
-    liveLink: "",
+    imgSrc: "./assets/challenges/Stats-preview-card-component.jpg",
+    codeLink:
+      "https://github.com/AmitDeka/Frontend-Mentor-Challenges/tree/main/challenges/Stats-preview-card-component",
+    liveLink:
+      "https://frontend-mentor-challenges-sable-eight.vercel.app/challenges/Stats-preview-card-component",
+  },
+  {
+    title: "QR code component",
+    description:
+      "A perfect first challenge if you're new to HTML and CSS. The card layout doesn't shift, so it's ideal if you haven't learned about building responsive layouts yet.",
+    imgSrc: "./assets/challenges/QR-code-component.jpg",
+    codeLink:
+      "https://github.com/AmitDeka/Frontend-Mentor-Challenges/tree/main/challenges/QR-code-component",
+    liveLink:
+      "https://frontend-mentor-challenges-sable-eight.vercel.app/challenges/QR-code-component",
   },
 ];
 
