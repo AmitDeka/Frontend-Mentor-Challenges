@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:wght@500,800&display=swap");
+@import "breakpoints";
+
+$Yellow: hsl(47, 88%, 63%);
+$White: hsl(0, 0%, 100%);
+$Grey: hsl(0, 0%, 50%);
+$Black: hsl(0, 0%, 7%);
+$font-family: "Figtree", sans-serif;
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+}
+
+body {
+  background-color: $Yellow;
+  font-family: $font-family;
+  font-weight: 500;
+}
+
+main {
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  width: 100%;
+}
+
+.container {
+  max-width: 325px;
+  width: 100%;
+
+  @include breakpoint(sm) {
+    max-width: 385px;
+  }
+}
+
+.card {
+  background-color: $White;
+  border: 1px solid $Black;
+  border-radius: 20px;
+  box-shadow: 10px 10px 0 $Black;
+  padding: 25px;
+  &-header {
+    &_image {
+      img {
+        border-radius: 10px;
+        height: 200px;
+        object-fit: cover;
+        overflow: hidden;
+        @include breakpoint(sm) {
+          height: unset;
+        }
+      }
+    }
+    margin-bottom: 25px;
+  }
+  &-body {
+    &_tag {
+      background-color: $Yellow;
+      border-radius: 5px;
+      font-size: 0.75rem;
+      font-weight: 800;
+      padding: 6px 8px;
+      @include breakpoint(sm) {
+        padding: 8px 12px;
+      }
+    }
+    &_date {
+      font-size: 0.75rem;
+      margin-bottom: 20px;
+      margin-top: 15px;
+      @include breakpoint(sm) {
+        font-size: 0.875rem;
+        margin-bottom: 20px;
+        margin-top: 20px;
+      }
+    }
+    a {
+      color: $Black;
+      text-decoration: none;
+      .card-body_title {
+        font-size: 1.1rem;
+        font-weight: 800;
+        margin-bottom: 10px;
+        @include breakpoint(sm) {
+          font-size: 1.275rem;
+          margin-bottom: 20px;
+        }
+      }
+      :hover {
+        color: $Yellow;
+        transition: color 0.1s ease-in-out;
+      }
+    }
+
+    &_excerpt {
+      color: $Grey;
+      font-size: 0.9rem;
+      letter-spacing: 0.5px;
+      line-height: 1.5;
+      margin-bottom: 25px;
+      @include breakpoint(sm) {
+        margin-bottom: 30px;
+      }
+    }
+  }
+  &-footer {
+    &_writer {
+      align-items: center;
+      display: inline-flex;
+      &_image {
+        height: 30px;
+        width: 30px;
+      }
+      &_name {
+        font-size: 12px;
+        font-weight: 800;
+        margin-left: 10px;
+      }
+    }
+  }
+}
+
+.attribution {
+  font-size: 12px;
+  text-align: center;
+  & a {
+    color: hsl(228, 45%, 44%);
+  }
+}

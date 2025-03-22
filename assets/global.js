@@ -39,6 +39,16 @@ const challenges = [
     liveLink:
       "https://frontend-mentor-challenges-sable-eight.vercel.app/challenges/Social-links-profile",
   },
+  {
+    title: "Blog preview card",
+    description:
+      "This HTML & CSS-only challenge is a perfect project for beginners getting up to speed with HTML and CSS fundamentals, like HTML structure and the box model.",
+    imgSrc: "./assets/challenges/Blog-preview-card.jpg",
+    codeLink:
+      "https://github.com/AmitDeka/Frontend-Mentor-Challenges/tree/main/challenges/Blog-preview-card",
+    liveLink:
+      "https://frontend-mentor-challenges-sable-eight.vercel.app/challenges/Blog-preview-card",
+  },
 ];
 
 // document.addEventListener("DOMContentLoaded", function () {
@@ -56,7 +66,7 @@ const container = document.getElementById("challengesContainer");
 container.innerHTML = challenges
   .map(
     (challenge) => `
-      <div class="col-12 col-md-6 col-lg-4">
+      <div class="col-12 col-md-6 col-lg-4 mb-4">
         <div class="card border-0 bg-white h-100 shadow-sm">
           <div class="card-body">
             <img src="${challenge.imgSrc}" alt="${challenge.title}" class="card-img-top rounded-2" loading="lazy"/>
