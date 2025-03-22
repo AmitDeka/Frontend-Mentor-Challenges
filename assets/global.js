@@ -49,6 +49,16 @@ const challenges = [
     liveLink:
       "https://frontend-mentor-challenges-sable-eight.vercel.app/challenges/Blog-preview-card",
   },
+  {
+    title: "Interactive rating component",
+    description:
+      "This is a nice, small project to practice handling user interactions and updating the DOM. Perfect for anyone who has learned the basics of JavaScript!",
+    imgSrc: "./assets/challenges/Interactive-rating-component.jpg",
+    codeLink:
+      "https://github.com/AmitDeka/Frontend-Mentor-Challenges/tree/main/challenges/Interactive-rating-component",
+    liveLink:
+      "https://frontend-mentor-challenges-sable-eight.vercel.app/challenges/Interactive-rating-component",
+  },
 ];
 
 // document.addEventListener("DOMContentLoaded", function () {
