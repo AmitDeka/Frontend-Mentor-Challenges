@@ -19,6 +19,16 @@ const challenges = [
     liveLink:
       "https://frontend-mentor-challenges-sable-eight.vercel.app/challenges/QR-code-component",
   },
+  {
+    title: "Testimonials grid section",
+    description:
+      "This challenge will be perfect practice for anyone wanting to test their CSS Grid skills. Grid is such a powerful addition to CSS, so it's worth getting to grips with it!",
+    imgSrc: "./assets/challenges/Testimonials-grid-section.jpg",
+    codeLink:
+      "https://github.com/AmitDeka/Frontend-Mentor-Challenges/tree/main/challenges/Testimonials-grid-section",
+    liveLink:
+      "https://frontend-mentor-challenges-sable-eight.vercel.app/challenges/Testimonials-grid-section",
+  },
 ];
 
 // document.addEventListener("DOMContentLoaded", function () {
@@ -37,9 +47,9 @@ container.innerHTML = challenges
   .map(
     (challenge) => `
       <div class="col-12 col-md-6 col-lg-4">
-        <div class="card border-0 bg-white">
+        <div class="card border-0 bg-white h-100 shadow-sm">
           <div class="card-body">
-            <img src="${challenge.imgSrc}" alt="${challenge.title}" class="card-img-top rounded-2" />
+            <img src="${challenge.imgSrc}" alt="${challenge.title}" class="card-img-top rounded-2" loading="lazy"/>
             <h4 class="card-title mt-3">${challenge.title}</h4>
             <p class="card-description">${challenge.description}</p>
             <div class="w-100 d-flex justify-content-between mt-3">
