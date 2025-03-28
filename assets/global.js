@@ -79,6 +79,17 @@ const challenges = [
     liveLink:
       "https://frontend-mentor-challenges-sable-eight.vercel.app/challenges/Four-card-feature-section",
   },
+  {
+    title: "Huddle landing page with a single introductory section",
+    description:
+      "A perfect challenge for beginners, this project will get you working with a two column layout.",
+    imgSrc:
+      "./assets/challenges/huddle-landing-page-with-single-introductory-section.jpg",
+    codeLink:
+      "https://github.com/AmitDeka/Frontend-Mentor-Challenges/tree/main/challenges/huddle-landing-page-with-single-introductory-section",
+    liveLink:
+      "https://frontend-mentor-challenges-sable-eight.vercel.app/challenges/huddle-landing-page-with-single-introductory-section",
+  },
 ];
 
 document.addEventListener("DOMContentLoaded", function () {
