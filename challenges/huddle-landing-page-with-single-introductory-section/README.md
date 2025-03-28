@@ -1,6 +1,6 @@
-# Frontend Mentor - Four card feature section solution
+# Frontend Mentor - Huddle landing page with single introductory section solution
 
-This is a solution to the [Four card feature section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/four-card-feature-section-weK1eFYK). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+This is a solution to the [Huddle landing page with single introductory section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/huddle-landing-page-with-a-single-introductory-section-B_2Wvxgi0). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -19,16 +19,17 @@ This is a solution to the [Four card feature section challenge on Frontend Mento
 
 Users should be able to:
 
-- View the optimal layout for the site depending on their device's screen size
+- View the optimal layout for the page depending on their device's screen size
+- See hover states for all interactive elements on the page
 
 ### Screenshot
 
-![](./ss.png)
+![](./screenshot.jpg)
 
 ### Links
 
-- Solution URL: [Click Here](https://github.com/AmitDeka/Frontend-Mentor-Challenges/tree/main/challenges/Four-card-feature-section)
-- Live Site URL: [Click Here](https://frontend-mentor-challenges-sable-eight.vercel.app/challenges/Four-card-feature-section)
+- Solution URL: [Click Here](https://github.com/AmitDeka/Frontend-Mentor-Challenges/tree/main/challenges/huddle-landing-page-with-single-introductory-section)
+- Live Site URL: [Click Here](https://frontend-mentor-challenges-sable-eight.vercel.app/challenges/huddle-landing-page-with-single-introductory-section)
 
 ## My process
 
