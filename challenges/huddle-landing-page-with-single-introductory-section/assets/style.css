@@ -148,6 +148,7 @@ img {
   font-family: "Poppins", sans-serif;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
   background-color: #ffffff;
+  color: hsl(257, 40%, 49%);
   transition: all 0.3s ease-in-out;
 }
 .hero-wrapper .hero_content-text-button a:hover {

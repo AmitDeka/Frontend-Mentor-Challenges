@@ -4,8 +4,7 @@
 ::before {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html {
@@ -16,65 +15,43 @@ html {
 body {
   font-family: "Outfit", sans-serif;
   font-size: 15px;
-  background-color: #d6e2f0;
+  background-color: hsl(212, 45%, 89%);
   position: relative;
   width: 100%;
   height: 100vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .card {
   max-width: 85%;
   margin: 0 auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  background-color: white;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(0, 0%, 100%);
   padding: 1rem 1rem 2rem;
   border-radius: 1.5rem;
 }
-
 .card_Image {
   height: auto;
   max-width: 100%;
   border-radius: 1.5rem;
 }
-
 .card_Text {
   padding: 2rem 1rem 0.5rem;
   text-align: center;
 }
-
 .card_Text h1 {
   font-size: 1.35rem;
-  color: #1f3251;
+  color: hsl(218, 44%, 22%);
   margin-bottom: 1rem;
 }
-
 .card_Text p {
-  color: #7b879d;
+  color: hsl(220, 15%, 55%);
 }
 
 @media screen and (min-width: 375px) {
@@ -97,10 +74,8 @@ body {
   font-size: 11px;
   text-align: center;
 }
-
 .attribution a {
   font-weight: 700;
   letter-spacing: 0.5px;
-  color: #3e52a3;
-}
-/*# sourceMappingURL=global.css.map */
+  color: hsl(228, 45%, 44%);
+}/*# sourceMappingURL=global.css.map */
